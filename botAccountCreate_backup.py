@@ -4,9 +4,9 @@ import gmail_data_use as tgApi_get
 import check as check_dt
 import time
 
-api_id = 2542623
-api_hash = '8061ebf11232d963d1271f09dc8d89d6'
-bot_token = 'MIIBCgKCAQEAwVACPi9w23mF3tBkdZz+zwrzKOaaQdr01vAbU4E1pvkfj4sqDsm6'
+api_id = 
+api_hash = ''
+bot_token = ''
 client = TelegramClient('anon', api_id, api_hash)
 
 
