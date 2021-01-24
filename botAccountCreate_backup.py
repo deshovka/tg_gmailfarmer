@@ -1,12 +1,12 @@
-from telethon import TelegramClient, events, sync
+﻿from telethon import TelegramClient, events, sync
 from selenium import webdriver
 import gmail_data_use as tgApi_get
 import check as check_dt
 import time
 
-api_id = 
-api_hash = ''
-bot_token = ''
+api_id = 2542623
+api_hash = '8061ebf11232d963d1271f09dc8d89d6'
+bot_token = 'MIIBCgKCAQEAwVACPi9w23mF3tBkdZz+zwrzKOaaQdr01vAbU4E1pvkfj4sqDsm6'
 client = TelegramClient('anon', api_id, api_hash)
 
 
@@ -32,4 +32,6 @@ async def my_event_handler(event):
 
 client.start()
 client.run_until_disconnected()
+
+
 
